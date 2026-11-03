@@ -111,6 +111,31 @@ Feature importance analysis highlighted features such as:
 - Age
 
 These results describe the model's learned patterns and do not establish medical causation.
+## Visual Results
+
+### 1. Model Performance Comparison
+
+Comparison of Accuracy and ROC-AUC scores across four classification models.
+
+![Model Comparison](model_comparison.png)
+
+### 2. Confusion Matrix
+
+Visual representation of the final tuned Random Forest model's predictions.
+
+![Confusion Matrix](confusion_matrix.png)
+
+### 3. Feature Importance
+
+The most influential features identified by the Random Forest model.
+
+![Feature Importance](feature_importance.png)
+
+### 4. SHAP Summary Plot
+
+SHAP visualization showing how different features influence model predictions.
+
+![SHAP Summary](shap_summary.png)
 
 ## Repository Structure
 
